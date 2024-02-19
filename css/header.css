@@ -1,0 +1,19 @@
+
+.menu_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: white;
+    position: relative;
+}
+
+.menu_image{
+    width: 24px;
+    height: 24px;
+}
+
+.menu_container{
+    align-items: center;
+    gap: 10px;
+}

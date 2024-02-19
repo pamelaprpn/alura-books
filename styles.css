@@ -1,0 +1,25 @@
+@import url(css/header.css);
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --cor-fundo-branco: white;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.lista_categorias{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.button_menu:checked ~ .lista_categorias{
+    display: block;
+}
+
+.lista_categorias__titulo .lista_categorias__item{
+    padding: 20px;
+    background-color: var(--cor-fundo-branco);
+}
