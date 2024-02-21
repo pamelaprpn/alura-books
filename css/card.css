@@ -1,0 +1,63 @@
+@import 'swiper/css';
+
+.card{
+    background-color: var(--cor-fundo-branco);
+    border-radius: 10px;
+    margin: 1.5em;
+}
+
+.card_description_main{
+    display: flex;
+
+}
+
+.card_description{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em;
+}
+
+.card_description_star{
+    background: url("../assets/Star\ 1.svg");
+    background-repeat: repeat-x;
+    background-position: center;
+    
+}
+
+.card_description_subtitle{
+    color: var(--cor-laranja);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card_description_title{
+    color: var(--cor-azul-escuro);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card_description_image{
+    padding: 1em;
+}
+
+.card_buttons{
+    display: flex;
+
+    
+}
+
+.card_buttons_incluirItens{
+    display: flex;
+    padding: 1em;
+}
+
+.card_buttons_maisInfo{
+    background-color: var(--cor-laranja);
+    color: var(--cor-fundo-branco);
+    text-decoration: none;
+    padding: .5em 1em .5em 1em;
+}
+
+
+    
