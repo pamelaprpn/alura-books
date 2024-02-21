@@ -41,10 +41,8 @@
     padding: 1em;
 }
 
-.card_buttons{
-    display: flex;
-
-    
+.card_buttons{ 
+    display: flex;  
 }
 
 .card_buttons_incluirItens{
@@ -56,7 +54,7 @@
     background-color: var(--cor-laranja);
     color: var(--cor-fundo-branco);
     text-decoration: none;
-    padding: .5em 1em .5em 1em;
+    /* padding: .5em 1em .5em 1em; */
 }
 
 
