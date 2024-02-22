@@ -31,13 +31,14 @@
     border-radius: 24px;
     width: 90%;
     height: 44px;
+    color: var(--cor-fundo-branco);
+    padding: 0 2em;
 }
 
 .input_search::placeholder{
     font-family: var(--fonte-poppins);
     text-align: center;
     background: url("../assets/Pesquisa.svg") no-repeat;
-    background-position: 3em;
     color: var(--cor-fundo-branco);
     font-size: 14px;
     font-weight: 400;

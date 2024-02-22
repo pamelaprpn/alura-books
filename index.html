@@ -93,12 +93,12 @@
                 <img class="card_description_image" src="assets/Angular.svg" alt="Icone Angular">
             </div>
 
-            <div card="card_buttons">
+            <div class="card_buttons">
                 <ul class="card_buttons_incluirItens">
                     <li class="card_buttons_item"><img src="assets/Favoritos.svg" alt="Favoritar"></li>
                     <li class="card_buttons_item"><img src="assets/Compras.svg" alt="Comprar"></li>      
                 </ul>
-
+                
                 <a class="card_buttons_maisInfo" href="#">Saiba mais</a> 
             </div>
         </div>
@@ -138,7 +138,7 @@
         <div class="card">
             <div class="card_description_main">
                 <div class="card_description">
-                    <img class="card_description_star" src="assets/Star 1.svg" alt="Estrela">
+                    <img class="card_description_star" src="assets/Estrelinhas.svg" alt="Estrela">
                     <h3 class="card_description_subtitle">Autora do Mês</h3>
                     <h2 class="card_description_title">Juliana Agarikov</h2>
                     <p class="card_description_text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
@@ -158,23 +158,49 @@
         </div>
     </section>
 
+    <section class="topicos">
+        <h2 class="topicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item"><a href="#">Android</a></li>
+            <li class="topicos_item"><a href="#">Marketing Digital</a></li>
+            <li class="topicos_item"><a href="#">Agile</a></li>
+            <li class="topicos_item"><a href="#">Startups</a></li>
+            <li class="topicos_item"><a href="#">HTML & CSS</a></li>
+            <li class="topicos_item"><a href="#">Python</a></li>
+            <li class="topicos_item"><a href="#">OO</a></li>
+            <li class="topicos_item"><a href="#">Java</a></li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+        <p class="contato_text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <input class="contato_email" type="email" placeholder="Cadastre seu e-mail">
+    </section>
+
+    <hr>
+
+    <footer class="rodape">
+        <p class="rodape_autor">Grupo Alura</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
  
-        <script>
-            const swiper = new Swiper('.swiper', {
-                spaceBetween: 10,
-                slidesPerView: 3,
-                autoplay: {
-                delay: 2000,
-                },
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            autoplay: {
+            delay: 2000,
+            },
 
-                pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                },
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
 
-            });
-        </script>
+        });
+    </script>
     
 </body>
 </html>

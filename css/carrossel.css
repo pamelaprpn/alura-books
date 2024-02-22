@@ -1,4 +1,4 @@
-@import 'swiper/css';
+import 'swiper/css';
 
 .carrossel{
     background-color: var(--cor-de-fundo);
@@ -27,4 +27,70 @@
 .swiper-pagination{
     position: initial;
     margin: .5em 0;
+}
+
+.card{
+    background-color: var(--cor-fundo-branco);
+    border-radius: 10px;
+    margin: 1em;
+    
+}
+
+.card_description_main{
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em .5em 1em;
+    
+
+}
+
+.card_description{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em;
+}
+
+
+.card_description_subtitle{
+    color: var(--cor-laranja);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card_description_title{
+    color: var(--cor-azul-escuro);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.card_description_text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.card_description_image{
+    padding: .5em;
+}
+
+.card_buttons{ 
+    display: flex;  
+    justify-content: space-between;
+    padding: .5em 1em .5em 1em;
+}
+
+.card_buttons_incluirItens{
+    display: flex;
+    padding: 1em;
+}
+
+.card_buttons_maisInfo{
+    background-color: var(--cor-laranja);
+    color: var(--cor-fundo-branco);
+    text-decoration: none;
+    padding: 1em 2.2em;
+    font-weight: 700;    
 }
