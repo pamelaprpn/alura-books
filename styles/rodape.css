@@ -1,0 +1,39 @@
+.rodape{
+    background: #F9F9F9;
+        
+}
+
+.rodape_autor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 1em 1.5em
+}
+
+.lista_educaçao{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        padding: 2em;
+    }
+
+    .lista_educaçao_item{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        margin-top: 1em;
+    }
+
+    .lista_educaçao{
+        display: block;
+    }
+
+    .lista_educaçao_item_ancora{
+        text-decoration: none;
+    }
+
+}

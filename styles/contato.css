@@ -43,3 +43,21 @@
     color: var(--cor-azul-escuro);
     
 }
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contato_titulo{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .contato_email{
+        width: 30%;
+    }
+
+    
+}

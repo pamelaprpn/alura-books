@@ -58,7 +58,8 @@
 }
 
 .menu_text,
-.lista_menu_item{
+.lista_menu_item,
+.lista_menu_inputCheck{
     display: none;
 }
 
