@@ -59,9 +59,11 @@
 
 .menu_text,
 .lista_menu_item,
-.lista_menu_inputCheck{
+.lista_menu_inputCheck,
+.menu_image_text{
     display: none;
 }
+
 
 @media screen and (min-width: 1024px){
       
@@ -112,4 +114,19 @@
    
 
 
+}
+
+
+@media screen and (min-width: 1728px) {
+    .item_container{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        gap: 1em;
+    }
+
+    .menu_image_text{
+        color: var(--cor-preta);
+        display: block;
+    }
 }
